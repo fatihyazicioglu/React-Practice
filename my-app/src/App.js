@@ -1,4 +1,6 @@
+import User from './components/User';
 import './App.css';
+
 
 function App() {
   const test =123;
@@ -14,6 +16,12 @@ function App() {
     <h1>    {1+1} </h1>
     <h1>{"fatih".toUpperCase()}</h1>    
     <h1>{test}</h1>
+
+    <User/>
+    <User/>
+    <User/>
+    <User/>
+
     
     <div>
       {
