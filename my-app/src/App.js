@@ -1,4 +1,7 @@
 import User from './components/User';
+import Navbar from "./components/Navbar"
+
+
 import './App.css';
 
 
@@ -19,7 +22,7 @@ function App() {
 
     <User/>
     <User/>
-    <User/>
+    <hr/>
     <User/>
 
     
@@ -29,12 +32,16 @@ function App() {
       }
     </div>
 
-      <div>
+      <div className='container'>
         <h4 style={{color:"red", fontSize:"30px"}}>
           App Component
         </h4>
       </div>
 
+      <div>
+        <Navbar title="User App 2"/>
+       
+      </div>
 
     </div>
        
@@ -43,3 +50,6 @@ function App() {
 }
 
 export default App;
+// 2 type of components
+//1- class-based components
+//2- functional components

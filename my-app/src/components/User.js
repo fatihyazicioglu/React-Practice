@@ -8,6 +8,14 @@ class User extends Component {
               <input type=""/>
               <button> Send</button>
           </form>
+
+
+          <ul>
+            <li>Name :Fatih Y</li>
+            <li>Surname:Yazici</li>
+            <li>Salary: 3000 </li>
+
+          </ul>
       </div>
     )
   }
