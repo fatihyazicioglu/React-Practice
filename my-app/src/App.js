@@ -23,12 +23,17 @@ function App() {
     <User/>
 
     
-    <div>
+    <div className="header">
       {
         isAuth ? <p>it exists</p> : null
       }
     </div>
 
+      <div>
+        <h4 style={{color:"red", fontSize:"30px"}}>
+          App Component
+        </h4>
+      </div>
 
 
     </div>
