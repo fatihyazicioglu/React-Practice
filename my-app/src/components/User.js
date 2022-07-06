@@ -11,9 +11,9 @@ class User extends Component {
 
 
           <ul>
-            <li>Name :Fatih Y</li>
-            <li>Surname:Yazici</li>
-            <li>Salary: 3000 </li>
+            <li>Name :{this.props.name}</li>
+            <li>Surname:{this.props.department}</li>
+            <li>Salary: {this.props.salary} </li>
 
           </ul>
       </div>
