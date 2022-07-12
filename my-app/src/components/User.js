@@ -32,6 +32,13 @@ class User extends Component {
           User.propTypes={
             
           }
+
+
+          <div className='col-md-8 mb-4'>
+          <div className='card'>
+
+          </div>
+          </div>
       </div>
     )
   }
